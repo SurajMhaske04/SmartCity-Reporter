@@ -140,4 +140,3 @@ This project was developed to practice Python Flask backend development, databas
 📜 License
 This project is licensed for academic and learning purposes only.
 Free to use, modify, and study for educational use.
-
