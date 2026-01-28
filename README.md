@@ -38,7 +38,6 @@ This project demonstrates backend development using Flask, SQLite database integ
 
 ## 🗂 Project Structure
 
-```text
 smart_city_issue_reporting/
 ├── app.py
 ├── requirements.txt
