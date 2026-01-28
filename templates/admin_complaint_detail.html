@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Complaint Detail</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<div class="container mt-4">
+    <h4>Complaint Detail</h4>
+    <p><b>User:</b> {{ c.name }}</p>
+    <p><b>Email:</b> {{ c.email }}</p>
+    <p><b>Category:</b> {{ c.category }}</p>
+    <p><b>Description:</b> {{ c.description }}</p>
+    <p><b>Status:</b> {{ c.status }}</p>
+
+    {% if c.image %}
+        <img src="/uploads/{{ c.image }}" class="img-fluid mt-3">
+    {% endif %}
+
+    <a href="/admin/dashboard" class="btn btn-secondary mt-3">Back</a>
+</div>
+
+</body>
+</html>
