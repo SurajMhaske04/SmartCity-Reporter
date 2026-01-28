@@ -1,34 +1,37 @@
 📘 SmartCity Reporter – Web Application
 
-SmartCity Reporter is a Python Flask–based web application designed to allow users to report city-related issues digitally and enable an admin to manage and track those issues efficiently.
-This project demonstrates backend development, session-based authentication, SQLite integration, and responsive web design.
+SmartCity Reporter is a modern Python Flask–based web application designed to report and manage city-related issues digitally.
+This project demonstrates backend development using Flask, SQLite database integration, session-based authentication, and responsive web design.
 
 🚀 Features
-👤 User Features
 
-🔐 User registration and login
+🔐 Secure user authentication
 
-📝 Report city-related issues (road damage, garbage, street lights, etc.)
+🏙 Issue Management
 
-🖼 Upload images with complaints
+Report city-related issues
 
-📄 View personal complaint history
+Select issue category
 
-🔄 Track complaint status (Pending / In Progress / Resolved)
+Upload images with complaints
 
-📱 Mobile-friendly responsive interface
+📄 Complaint Tracking
 
-👮 Admin Features
+View submitted complaints
 
-🔐 Separate admin login
+Track complaint status (Pending / In Progress / Resolved)
 
-📋 View all user complaints
+👤 User-wise data separation
 
-🔁 Update complaint status
+👮 Admin Management
 
-🗑 Delete complaints
+View all complaints
 
-📊 Simple admin dashboard
+Update complaint status
+
+Delete complaints
+
+📱 Mobile-friendly responsive web interface
 
 🛠 Technologies Used
 
@@ -48,12 +51,10 @@ Git & GitHub
 
 🗂 Project Structure
 smart_city_issue_reporting/
-│
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-│
 ├── templates/
 │   ├── home.html
 │   ├── login.html
@@ -64,10 +65,8 @@ smart_city_issue_reporting/
 │   ├── admin_dashboard.html
 │   ├── complaint_detail.html
 │   └── admin_complaint_detail.html
-│
 ├── static/
 │   └── css/
-│
 └── uploads/
     └── (empty folder for image uploads)
 
@@ -75,22 +74,25 @@ smart_city_issue_reporting/
 
 This project uses SQLite, so no manual database setup is required.
 
-The database file (database.db) is automatically created when the application runs.
+The database file is automatically created when the application is first run
 
-Required tables and default admin account are initialized at runtime.
+Required tables and default admin account are initialized automatically
 
 ▶️ How to Run the Project
-Step 1: Open project folder in VS Code
-Step 2: Open terminal
+Steps:
 
-Press:
+Download or clone the repository
 
-Ctrl + `
+Open the project folder in VS Code
 
-Step 3: Create virtual environment
+Open terminal inside the project folder
+
+Create a virtual environment:
+
 python -m venv venv
 
-Step 4: Activate virtual environment
+
+Activate virtual environment:
 
 Windows
 
@@ -101,35 +103,35 @@ Linux / macOS
 
 source venv/bin/activate
 
-Step 5: Install dependencies
+
+Install dependencies:
+
 pip install -r requirements.txt
 
-Step 6: Run the application
+
+Run the application:
+
 python app.py
 
-Step 7: Open in browser
+
+Open browser:
+
 http://127.0.0.1:5000
 
 🔑 Sample Login Credentials
-Admin Login
-Username	Password
-admin	admin123
-
-Credentials are for demonstration purposes only.
-
+Username	Password	Role
+admin	admin123	ADMIN
 🧩 Code Architecture
+smart_city_issue_reporting/
+├── app.py
+├── templates/
+├── static/
+├── uploads/
+├── database (auto-created)
+└── README.md
 
-The project follows a simple and beginner-friendly structure:
 
-Flask routes handle request/response logic
-
-HTML templates manage UI rendering
-
-SQLite manages persistent data
-
-Session-based authentication ensures user separation
-
-This design keeps the code easy to understand and extend.
+This structure follows a simple and beginner-friendly separation of concerns suitable for academic projects.
 
 📘 Key Concepts Used
 
@@ -143,13 +145,13 @@ File upload handling
 
 CRUD operations
 
-Responsive web design using Bootstrap
+Responsive design using Bootstrap
 
 Git & GitHub version control
 
 🎓 Learning Outcomes
 
-Understanding Flask web application flow
+Strong understanding of Flask web application flow
 
 Hands-on experience with SQLite database
 
@@ -157,23 +159,21 @@ Practical authentication and role-based access
 
 File handling in web applications
 
-Building a complete full-stack web project
+Full-stack project development experience
 
-Preparing a project suitable for interviews and college evaluation
-
-📌 Project Purpose
-
-This project was developed to practice Python Flask backend development, database handling, and responsive UI design, and to build a professional web application prototype suitable for academic submission and interviews.
+Preparation for placements and interviews
 
 👨‍💻 Author
 
 Suraj Mhaske
 Computer Engineering Student
 
-🔗 GitHub:
-https://github.com/SurajMhaske04
+GitHub: https://github.com/SurajMhaske04
+
+📌 Project Purpose
+
+This project was developed to practice Python Flask backend development, database handling, and responsive UI design, and to build a professional web application suitable for academic submission and interviews.
 
 📜 License
 
 This project is licensed for academic and learning purposes only.
-Free to use, modify, and study for educational use.
