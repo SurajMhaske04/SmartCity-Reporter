@@ -1,4 +1,4 @@
-# 📘 SmartCity Reporter – Web Application
+# 📱 SmartCity Reporter – Web Application
 
 SmartCity Reporter is a modern **Python Flask–based web application** designed to report and manage city-related issues digitally.  
 This project demonstrates backend development using Flask, SQLite database integration, session-based authentication, and responsive web design.
@@ -8,31 +8,31 @@ This project demonstrates backend development using Flask, SQLite database integ
 ## 🚀 Features
 
 ### 👤 User Features
-- 🔐 User registration and login
-- 📝 Report city-related issues
-- 🏷 Select issue category
-- 🖼 Upload images with complaints
-- 📄 View personal complaint history
-- 🔄 Track complaint status (Pending / In Progress / Resolved)
+- 🔐 User registration and login  
+- 📝 Report city-related issues  
+- 🏷 Select issue category  
+- 🖼 Upload images with complaints  
+- 📄 View personal complaint history  
+- 🔄 Track complaint status (Pending / In Progress / Resolved)  
 
 ### 👮 Admin Features
-- 🔐 Separate admin login
-- 📋 View all user complaints
-- 🔁 Update complaint status
-- 🗑 Delete complaints
-- 📱 Mobile-friendly responsive interface
+- 🔐 Separate admin login  
+- 📋 View all user complaints  
+- 🔁 Update complaint status  
+- 🗑 Delete complaints  
+- 📱 Mobile-friendly responsive interface  
 
 ---
 
 ## 🛠 Technologies Used
 
-- Python
-- Flask
-- SQLite
-- HTML
-- CSS
-- Bootstrap
-- Git & GitHub
+- Python  
+- Flask  
+- SQLite  
+- HTML  
+- CSS  
+- Bootstrap  
+- Git & GitHub  
 
 ---
 
@@ -77,8 +77,10 @@ Step 3: Create virtual environment
 python -m venv venv
 Step 4: Activate virtual environment
 Windows
+
 venv\Scripts\activate
 Linux / macOS
+
 source venv/bin/activate
 Step 5: Install dependencies
 pip install -r requirements.txt
@@ -140,3 +142,4 @@ This project was developed to practice Python Flask backend development, databas
 📜 License
 This project is licensed for academic and learning purposes only.
 Free to use, modify, and study for educational use.
+
